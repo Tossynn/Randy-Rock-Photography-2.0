@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <div id="in-page-channel-node-id" data-channel-name="in_page_channel_hB4cs2"></div>
     <head lang="en">
         <title>Randy Rock Photography</title>
         <meta charset="utf-8">
@@ -17,7 +16,10 @@
             /* Add a left marging to the "page content" that matches the width of the sidebar(120px)*/
             #main {margin-left: 120px;}
             /* Remove margins from "page content" on small screens */
-            @media only screen and (max-width: 600px) {#main {margin-left: 0;}}
+            @media only screen and (max-width: 600px) {#main {margin-left: 0; padding-left: 0;}}
+            #home {
+                position: absolute;
+            }
         </style>
         <style>
             @keyframes slide-in-one-tap {
@@ -89,7 +91,6 @@
                 <p>We specialize in capturing the playful and energetic moments of your beloved pets.</p>
                 <div id="home-image">
                     <img src="e_Z636070.png" alt="boy" class="w3-image" width="992" height="1108">
-
                 </div>
              </header>
              <!-- About Section-->
